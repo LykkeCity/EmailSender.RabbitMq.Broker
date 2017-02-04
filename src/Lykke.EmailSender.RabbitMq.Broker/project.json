@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "Flurl.Http": "1.1.1",
+    "Lykke.Common": "1.1.7",
+    "Lykke.EmailSender": "1.0.3",
+    "Lykke.EmailSender.RabbitMQ": "1.0.5",
+    "Lykke.EmailSender.Smtp": "1.0.3",
+    "Lykke.Logs": "1.0.5",
+    "Lykke.RabbitMqBroker": "1.0.21",
+    "Lykke.SlackNotification.AzureQueue": "1.0.3",
+    "Microsoft.Extensions.DependencyInjection": "1.1.0",
+    "Microsoft.NETCore.App": {
+      "type": "platform",
+      "version": "1.1.0"
+    }
+  },
+
+  "frameworks": {
+    "netcoreapp1.1": {
+      "imports": [ "dnxcore50", "portable-net45+win8" ]
+    }
+  },
+  "userSecretsId": "aspnet-Lykke.EmailSender.RabbitMqBroker-20170204014150"
+}
